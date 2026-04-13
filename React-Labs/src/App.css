@@ -1,0 +1,31 @@
+/* main grid container */
+
+.grid-container {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 24px;
+
+    padding: 40px;
+
+    max-width: 1200px;
+
+    margin: auto;
+}
+
+/* tablet view */
+
+@media (max-width: 900px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* mobile view */
+
+@media (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

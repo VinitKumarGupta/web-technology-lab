@@ -11,3 +11,13 @@
 ### - Lab 4: Resume Building
 
 ### - Lab 5: Feedback Form with validations using Javascript
+
+### - LAB 6: Hello world in react
+
+### - LAB 7: Counter app using state in React
+
+### - LAB 8: Storing on Local Storage via Signup Form
+
+### - LAB 9: Sidebar using Material UI
+
+### - LAB 10: Cards using Material UI
