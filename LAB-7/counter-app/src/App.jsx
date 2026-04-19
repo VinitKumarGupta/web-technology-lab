@@ -6,7 +6,7 @@ import HelloWorld from "./components/HelloWorld";
 function App() {
     const [count, setCount] = useState(0);
 
-    const increment = () => setCount(count + 1);
+    const increment = () => setCount(count + 5);
     const decrement = () => setCount(count - 1);
     const reset = () => setCount(0);
 
@@ -18,13 +18,13 @@ function App() {
                 <div className="counter-display">{count}</div>
                 <div className="button-group">
                     <button className="btn btn-decrement" onClick={decrement}>
-                        Decrease
+                        Decrease by 1
                     </button>
                     <button className="btn btn-reset" onClick={reset}>
-                        Reset
+                        Reset to Zero
                     </button>
                     <button className="btn btn-increment" onClick={increment}>
-                        Increase
+                        Increase by 5
                     </button>
                 </div>
             </div>
