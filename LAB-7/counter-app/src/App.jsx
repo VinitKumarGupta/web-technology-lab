@@ -1,7 +1,5 @@
 import { useState } from "react";
 import "./App.css";
-// Part of Experiment 6 here
-import HelloWorld from "./components/HelloWorld";
 
 function App() {
     const [count, setCount] = useState(0);
@@ -12,7 +10,6 @@ function App() {
 
     return (
         <div className="app-container">
-            <HelloWorld />
             <h3>Counter App</h3>
             <div className="counter-box">
                 <div className="counter-display">{count}</div>

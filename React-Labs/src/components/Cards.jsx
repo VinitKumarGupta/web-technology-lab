@@ -52,7 +52,7 @@ export default function CardsGrid() {
         <Box
             sx={{
                 display: "grid",
-                gridTemplateColumns: "repeat(3, 1fr)", // 🔥 3 columns FIXED
+                gridTemplateColumns: "repeat(3, 1fr)",
                 gap: 2,
                 padding: 2,
             }}
